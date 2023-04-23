@@ -16,7 +16,6 @@ public class StarWarsOpening : MonoBehaviour
 
     void Update()
     {
-        
         if (!(rectTransform.anchoredPosition.y >= 0))
         {
             rectTransform.anchoredPosition += Vector2.up * speed * Time.deltaTime;
